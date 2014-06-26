@@ -725,7 +725,7 @@ def generate_mac_address():
     #             that has the unicast and locally administered bits set
     #             properly: 0xfa.
     #             Discussion: https://bugs.launchpad.net/nova/+bug/921838
-    mac = [0xfa, 0x16, 0x3e,
+    mac = [0xfa, 0x15, 0x3e,
            random.randint(0x00, 0xff),
            random.randint(0x00, 0xff),
            random.randint(0x00, 0xff)]
